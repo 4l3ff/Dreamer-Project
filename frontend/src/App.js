@@ -15,6 +15,7 @@ import NewMeasurement from './pages/NewMeasurement';
 import EditProfile from './pages/EditProfile';
 import Settings from './pages/Settings';
 import FolderManagement from './pages/FolderManagement';
+import WorkoutDetails from './pages/WorkoutDetails';
 
 function App() {
   return (
