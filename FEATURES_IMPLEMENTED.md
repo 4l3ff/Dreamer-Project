@@ -6,7 +6,7 @@
 
 #### 1. Tela Início
 - [x] Saudação personalizada com nome do usuário
-- [x] Seção "Período" com indicadores de 7 dias
+- [x] Seção "Período" com indicadores de 7 dias, 30 dias, 3 meses, 6 meses, 12 meses, Período personalizado.
 - [x] Indicadores de progresso (Treinos, Calorias, Minutos, Volume)
 - [x] Histórico de treinos com cards informativos
 - [x] Informações de cada treino (data, duração, calorias, exercícios, volume)
