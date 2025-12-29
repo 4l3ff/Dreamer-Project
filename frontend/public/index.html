@@ -8,7 +8,6 @@
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
         <title>Dreamer - Treinos</title>
-        <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
         <!--
         These two scripts have been added for the testing, please do not edit or remove them
         -->
@@ -22,7 +21,6 @@
             if (window.self !== window.top && '%REACT_APP_ENABLE_VISUAL_EDITS%' === 'true') {
                 // Load debug monitor script
                 var debugScript = document.createElement('script');
-                debugScript.src = 'https://assets.emergent.sh/scripts/debug-monitor.js';
                 document.head.appendChild(debugScript);
 
                 // Configure Tailwind
@@ -51,30 +49,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-        <a
-            id="emergent-badge"
-            target="_blank"
-            href="https://app.emergent.sh/?utm_source=emergent-badge"
-            style="
-                display: flex !important;
-                align-items: center !important;
-                position: fixed !important;
-                bottom: 20px;
-                right: 20px;
-                text-decoration: none;
-                padding: 6px 10px;
-                font-family: -apple-system, BlinkMacSystemFont,
-                    &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell,
-                    &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;,
-                    sans-serif !important;
-                font-size: 12px !important;
-                z-index: 9999 !important;
-                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
-                border-radius: 8px !important;
-                background-color: #ffffff !important;
-                border: 1px solid rgba(255, 255, 255, 0.25) !important;
-            "
-        >
             <div
                 style="display: flex; flex-direction: row; align-items: center"
             >
@@ -94,7 +68,6 @@
                         margin-bottom: 0;
                     "
                 >
-                    Made with Emergent
                 </p>
             </div>
         </a>
