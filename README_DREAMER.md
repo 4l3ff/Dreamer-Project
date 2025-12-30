@@ -215,12 +215,60 @@ Todas as funcionalidades funcionam 100% offline após a primeira visita.
 }
 ```
 
-### Scripts
-```bash
-yarn start   # Inicia servidor de desenvolvimento
-yarn build   # Cria build de produção
-yarn test    # Executa testes
-```
+# 🚀 Guia Rápido de Git (Básico, NPM e Solução de Erros)
+
+## ✅ Clonando o projeto em outro PC
+1. Clone o repositório:  
+`git clone https://github.com/4l3ff/Teste.git`
+2. Entre na pasta do projeto:  
+`cd Teste`
+3. Instale dependências (NPM):  
+`npm install`
+4. Rode o projeto:  
+`npm start`
+
+## ✅ Enviando Alterações para o GitHub
+Sempre que alterar arquivos no VS Code:
+
+1. **Salvar arquivos**  
+   Pressione `Ctrl + S` para salvar suas alterações.
+2. **Adicionar arquivos ao Git**  
+`git add .`  
+   *Ou adicione arquivos específicos:*  
+`git add caminho/do/arquivo`
+3. **Criar um commit**  
+`git commit -m "Mensagem descritiva do commit"`
+4. **Enviar para o GitHub**  
+`git push`
+
+💡 Atalho pelo VS Code:  
+- Clique no ícone de **Controle de Código-Fonte** 🌿  
+- Clique em **+** nos arquivos alterados → escreva a mensagem do commit → clique em ✔ Commit → depois clique em **Sync Changes** ou **Push**
+
+## ⚠️ Se der erro no push (“fetch first”)
+Esse erro acontece quando o GitHub possui alterações que você ainda não tem localmente.
+
+### 👉 Como resolver:
+1. Atualize seu repositório local com rebase:  
+`git pull --rebase`
+2. Em seguida, envie novamente:  
+`git push`
+
+## 📝 Dicas e Observações
+- **Não use rebase automaticamente**; utilize apenas quando o push for rejeitado.  
+- Escreva mensagens de commit **claras e descritivas** — isso ajuda a manter o histórico organizado.  
+- Sempre confirme o status dos arquivos antes do commit:  
+`git status`  
+- Se precisar desfazer alterações locais em um arquivo específico:  
+`git checkout -- <arquivo>`  
+- Este guia é um **resumo rápido** para consultas no dia a dia.
+
+## 💡 Observações sobre NPM vs Yarn
+- Comandos no NPM equivalentes ao Yarn:  
+`npm start`      # yarn start  
+`npm run build`  # yarn build  
+`npm test`       # yarn test
+- Arquivos `yarn.lock` não são necessários se você usa NPM, então podem ser ignorados ou removidos do repositório.
 
 ## 👨‍💻 Créditos
 
